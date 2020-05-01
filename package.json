@@ -12,7 +12,9 @@
     "build:win32": "rimraf dist && electron-packager ./ WeFlow --platform=win32 --arch=ia32 --icon=./assets/img/WeFlow.png --overwrite --out ./dist --version=0.37.8 --ignore=.github",
     "build:win64": "rimraf dist && electron-packager ./ WeFlow --platform=win32 --arch=x64 --icon=./assets/img/WeFlow.png --overwrite --out ./dist --version=0.37.8 --ignore=.github",
     "pack": "build --target dir",
-    "dist": "rimraf dist && build"
+    "dist": "rimraf dist && build",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "build": {
     "app-bundle-id": "com.weixin.weflow",
@@ -79,6 +81,8 @@
     "rd": "^0.0.2",
     "tmt-ejs-helper": "^0.0.1",
     "weflow-imagemin": "^0.0.3",
-    "weflow-rev-all": "^0.0.1"
-  }
+    "weflow-rev-all": "^0.0.1",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
