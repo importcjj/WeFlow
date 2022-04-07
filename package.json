@@ -43,7 +43,7 @@
     "rimraf": "^2.5.2"
   },
   "dependencies": {
-    "async": "^2.0.0-rc.3",
+    "async": "^3.2.2",
     "autoprefixer": "^6.3.3",
     "browser-sync": "^2.13.0",
     "crypto-md5": "^1.0.0",
