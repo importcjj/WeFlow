@@ -48,7 +48,7 @@
     "browser-sync": "^2.13.0",
     "crypto-md5": "^1.0.0",
     "del": "^2.2.0",
-    "extract-zip": "^1.5.0",
+    "extract-zip": "^2.0.0",
     "gulp": "git://github.com/gulpjs/gulp#4.0",
     "gulp-babel": "^6.1.2",
     "gulp-cssnano": "^2.1.1",
